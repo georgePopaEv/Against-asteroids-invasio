@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/spaceFont.spritefont</SourceFile>
+  <SourceTime>2017-11-30T11:56:42+02:00</SourceTime>
+  <DestFile>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/bin/DesktopGL/Content/spaceFont.xnb</DestFile>
+  <DestTime>2022-08-12T00:12:35.3328276+03:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-08-10T19:17:54+03:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-08-10T19:17:54+03:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
