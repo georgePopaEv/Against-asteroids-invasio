@@ -63,13 +63,22 @@ namespace SpaceShipGame
                 Exit();
 
             // TODO: Add your update logic here
-            player.shipUpdate(gameTime);
+            player.shipUpdate(gameTime, gameController);
             tAsteroid.asteroidUpdate(gameTime);
             gameController.conUpdate(gameTime);
 
             for(int i = 0; i < gameController.asteroids.Count; i++)
             {
                 gameController.asteroids[i].asteroidUpdate(gameTime);
+
+                int sum = gameController.asteroids[i].radius + 30;
+                if (Vector2.Distance(gameController.asteroids[i].position, player.position) < sum)
+                {
+                    gameController.inGame = false;
+                    player.position = Ship.defaultPosition;
+                    i = gameController.asteroids.Count;
+                    gameController.asteroids.Clear();
+                }
             }
             
             base.Update(gameTime);
@@ -91,8 +100,16 @@ namespace SpaceShipGame
                 _spriteBatch.Draw(asteroid, new Vector2(tempPos.X - radius, tempPos.Y - radius), Color.White);
                 
             }
+
+            if (gameController.inGame == false)
+            {
+                string menuMessage = "Please press Enter to start the game";
+                Vector2 sizeOfText = defaultFont.MeasureString(menuMessage);
+                _spriteBatch.DrawString(defaultFont, menuMessage, new Vector2(player.position.X - sizeOfText.X/2, player.position.Y + sizeOfText.Y), Color.White);
+            }
             //_spriteBatch.Draw(logo, new Vector2(0,0), scale:scale, Color.White);
             //_spriteBatch.Draw(logo, new Vector2(700,300), null, Color.White, 0, Vector2.Zero, scale, SpriteEffects.None, 0);
+            _spriteBatch.DrawString(timerFont, "Time: " + gameController.totalTime.ToString("0.00"), new Vector2(3, 3), Color.Gray);
             _spriteBatch.End();
 
             base.Draw(gameTime);
