@@ -9,13 +9,17 @@ namespace SpaceShipGame
 {
     class Asteroid
     {
-        public Vector2 position = new Vector2(600, 300);
+        public Vector2 position;
         private int speed; // it is a good practice to not write or assign a value
         public int radius = 59;
 
         public Asteroid(int newSpeed)
         {
             this.speed = newSpeed;
+
+            Random rand = new Random();
+
+            this.position = new Vector2(1280+radius, rand.Next(0,720));
         }
 
         public void asteroidUpdate(GameTime gameTime)
