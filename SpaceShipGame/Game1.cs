@@ -15,13 +15,6 @@ namespace SpaceShipGame
         private SpriteFont timerFont;
         private SpriteFont defaultFont;
         private Texture2D logo;
-
-        float targetX = 50;
-        float targetY;
-        //Vector2 scale;
-        Vector2 scale = new Vector2(0.1f, 0.1f);
-
-
         private Ship player = new Ship();
         Asteroid tAsteroid = new Asteroid(100);
         Controller gameController = new Controller();
@@ -51,7 +44,6 @@ namespace SpaceShipGame
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             asteroid = Content.Load<Texture2D>("asteroid");
             ship = Content.Load<Texture2D>("ship");
-            logo = Content.Load<Texture2D>("865405");
             space_background = Content.Load<Texture2D>("space");
             timerFont = Content.Load<SpriteFont>("timerFont");
             defaultFont = Content.Load<SpriteFont>("spaceFont");
@@ -99,12 +91,9 @@ namespace SpaceShipGame
                 _spriteBatch.Draw(asteroid, new Vector2(tempPos.X - radius, tempPos.Y - radius), Color.White);
                 
             }
-
             //_spriteBatch.Draw(logo, new Vector2(0,0), scale:scale, Color.White);
-            _spriteBatch.Draw(logo, new Vector2(700,300), null, Color.White, 0, Vector2.Zero, scale, SpriteEffects.None, 0);
-
+            //_spriteBatch.Draw(logo, new Vector2(700,300), null, Color.White, 0, Vector2.Zero, scale, SpriteEffects.None, 0);
             _spriteBatch.End();
-            // TODO: Add your drawing code here
 
             base.Draw(gameTime);
         }
