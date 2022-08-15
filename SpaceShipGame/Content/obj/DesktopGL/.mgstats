@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/865405.png","E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/bin/DesktopGL/865405.xnb","TextureProcessor","Texture2DContent",18843,1048661,0.1613847
 "E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/asteroid.png","E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/bin/DesktopGL/asteroid.xnb","TextureProcessor","Texture2DContent",17495,53893,0.3324539
 "E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/ship.png","E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/bin/DesktopGL/ship.xnb","TextureProcessor","Texture2DContent",3015,27285,0.0063369
 "E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/space.png","E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/bin/DesktopGL/space.xnb","TextureProcessor","Texture2DContent",1018006,12582997,0.7236324

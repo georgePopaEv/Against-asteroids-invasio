@@ -27,3 +27,4 @@ E:\Proiecte Microsoft Visual Studio Code\SpaceShipGame\SpaceShipGame\obj\Debug\n
 E:\Proiecte Microsoft Visual Studio Code\SpaceShipGame\SpaceShipGame\obj\Debug\netcoreapp3.1\SpaceShipGame.dll
 E:\Proiecte Microsoft Visual Studio Code\SpaceShipGame\SpaceShipGame\obj\Debug\netcoreapp3.1\SpaceShipGame.pdb
 E:\Proiecte Microsoft Visual Studio Code\SpaceShipGame\SpaceShipGame\obj\Debug\netcoreapp3.1\SpaceShipGame.genruntimeconfig.cache
+E:\Proiecte Microsoft Visual Studio Code\SpaceShipGame\SpaceShipGame\bin\Debug\netcoreapp3.1\Content\865405.xnb

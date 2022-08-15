@@ -4,6 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/865405.png</File>
     <File>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/asteroid.png</File>
     <File>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/ship.png</File>
     <File>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/space.png</File>
@@ -11,6 +12,7 @@
     <File>E:/Proiecte Microsoft Visual Studio Code/SpaceShipGame/SpaceShipGame/Content/timerFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
